@@ -1,6 +1,6 @@
 from fastapi import APIRouter, Query, HTTPException
 from fastapi.responses import StreamingResponse
-from app.functions.generate_qr_code import generate_qr_code, generate_custom_qr_code, generate_circular_qr_code
+from app.functions.generate_qr_code import generate_qr_code, generate_custom_qr_code
 from io import BytesIO
 
 router = APIRouter()
